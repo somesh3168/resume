@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  .resume {
+    margin: 1rem;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    .card {
+      border: 1px solid rgb(96, 185, 236);
+      padding: 1rem;
+      margin: 1rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 1040px) {
+  body {
+    background-color: whitesmoke;
+  }
+  .App {
+    .resume {
+      margin: auto;
+      width: 60%;
+    }
+  }
+  
+}
+
+
+@media only screen 
+and (min-width: 800px)
+and (max-width: 1040px) {
+  body {
+    background-color: rgb(207, 201, 201);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: rgb(220, 255, 255);
+  }
+
+  .App {
+    .resume {
+      grid-template-columns: auto;
+    }
+  }
+  
+}
