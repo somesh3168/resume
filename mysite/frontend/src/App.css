@@ -10,6 +10,10 @@
       padding: 1rem;
       margin: 1rem;
     }
+    .resume-header {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
   }
 }
 
